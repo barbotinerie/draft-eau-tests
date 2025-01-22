@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+
+# JavaScript/Node
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.next/
+
+# Database & Data
+*.sqlite3
+*.db
+*.duckdb
+*.csv
+*.parquet
+*.xlsx
+*.xls
+/database/*
+!database/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+secrets.yaml
+config.local.yaml
