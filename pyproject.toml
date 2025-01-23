@@ -15,7 +15,4 @@ dependencies = [
     "matplotlib>=3.10.0",
     "pandas>=2.2.3",
     "requests>=2.32.3",
-    "geopandas>=1.0.1",
-    "shapely.geometry>=2.0.2",
-    "folium>=0.19.4",
 ]
